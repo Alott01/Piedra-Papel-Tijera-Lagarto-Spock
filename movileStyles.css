@@ -1,0 +1,29 @@
+#second_container{
+    /*Size and form*/
+    margin-right: 0.5em;
+    padding: 0.5em;
+    width: 45vw;
+    /*container style*/
+    background-color: blue;
+    border-color:red;
+    border-style: dashed;
+    /*configuration*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  #third_container{
+    /*Size and form*/
+    margin-left: 0.5em;
+    padding: 0.5em;
+    width: 45vw;
+    /*container style*/
+    background-color: yellow;
+    border-color:black;
+    border-style: dashed;
+    /*configuration*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
