@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script ype="text/javascript" src="index.js"></script>
+    </head>
+
+    <body>
+        <div class='light x1'></div>
+        <div class='light x2'></div>
+        <div class='light x3'></div>
+        <div class='light x4'></div>
+        <div class='light x5'></div>
+        <div class='light x6'></div>
+        <div class='light x7'></div>
+        <div class='light x8'></div>
+        <div class='light x9'></div>
+
+        <header id="main_header">
+            <h1 id="headerText">Piedra Papel Tijera Lagarto Spoock</h1>
+        </header>
+        
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='dom.html'>Home</a></li>
+              <li><a href='rulers.html'>Rulers</a></li>
+              <li><a class='dropdown-arrow' href=''>Play</a>
+                <ul class='sub-menus'>
+                  <li><a href='playerVSachine.html'>PlayerVsMachine</a></li>
+                  <li><a href='playerVSplayer.html'>PlayerVsPlayer</a></li>
+                </ul>
+              </li>
+              <li><a href='notifications.html'>Subscribe</a></li>
+            </ul>
+        </nav>
+
+        <div id="main_container_sub">
+                <header class="headers">
+                    <h2 >SUBSCRIBE</h2>
+                </header>
+                <div class="text_container">
+                    <p>
+                        Subscribe to get notifications of the actualizations of my web
+                    </p>
+                </div>
+                <div>
+                    <form id="formu" action="" method="post">
+                        <ul>
+                            <li>
+                              <label for="name">Nombre:</label>
+                              <input type="text" id="name" name="user_name" placeholder="name" required>
+                            </li>
+                            <li>
+                                <label for="lastname">Nombre:</label>
+                                <input type="text" id="lastname" name="last_name" placeholder="last name" required>
+                              </li>
+                            <li>
+                              <label for="mail">Correo electrónico:</label>
+                              <input type="email" id="mail" name="user_mail" required>
+                            </li>
+                            <li>
+                                <label for="pass">Password: </label>
+                                <input type="password" id="pass" name="password" required>
+                            </li>
+                        </ul>
+                           <input id="submite" type="submit" placeholder="Submite">
+                    </form>
+                </div>
+        </div>
+
+        <footer id="main_footer">
+
+        </footer>
+    </body>
+</html>
